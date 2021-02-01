@@ -1,11 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-// import Nav from './components/navbar/nav';
-// import Landing from './components/landing';
-import What from './components/what/what';
 
-import About from './components/about';
+import Experience from './components/experience';
 
 import GlobalStyle from './styles/global';
 
@@ -13,7 +10,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <What />
+        <Experience />
         <GlobalStyle />
       </Router>
     </>

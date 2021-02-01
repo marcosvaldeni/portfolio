@@ -14,7 +14,7 @@ export default createGlobalStyle`
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 4px;
     margin-bottom: 20px
