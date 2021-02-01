@@ -48,8 +48,6 @@ const About = () => {
         </Section>
       </Container>
     </>
-
-    
   );
 }
 

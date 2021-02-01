@@ -12,4 +12,18 @@ export default createGlobalStyle`
     font: 16px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 20px
+  }
+
+  h3 {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+  }
 `;

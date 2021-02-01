@@ -11,13 +11,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h2 {
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 20px
-  }
-
   > img {
     height: 80px;
     border-radius: 50%;
@@ -39,13 +32,6 @@ export const Section = styled.div`
   padding: 35px 50px;
   background: #fff;
   border-radius: 30px;
-
-  h3 {
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 40px;
-  }
 
   ul {
     list-style: none;
