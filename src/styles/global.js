@@ -10,6 +10,7 @@ export default createGlobalStyle`
 
   body {
     font: 16px Roboto, sans-serif;
+    line-height: 26px;
     -webkit-font-smoothing: antialiased;
   }
 
