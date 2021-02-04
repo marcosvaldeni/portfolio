@@ -1,6 +1,6 @@
 import react from 'react';
 
-import { Background, Content, Card } from './styles';
+import { Background, Content, Card, Button } from './styles';
 
 const project = () => {
 
@@ -11,40 +11,32 @@ const project = () => {
         <Content>
           <Card>
             <div>
-              <div>
-                <button>More Information</button>
-              </div>
+              <button>More Information</button>
             </div>
           </Card>
           <Card>
-          <div>
             <div>
               <button>More Information</button>
             </div>
-          </div>
           </Card>
           <Card>
-          <div>
             <div>
               <button>More Information</button>
             </div>
-          </div>
           </Card>
           <Card>
-          <div>
             <div>
               <button>More Information</button>
             </div>
-          </div>
           </Card>
           <Card>
-          <div>
             <div>
               <button>More Information</button>
             </div>
-          </div>
           </Card>
         </Content>
+
+        <Button>MORE</Button>
       </Background>
     </>
   );
