@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-
-import Projects from './components/project';
+import Contact from './components/contact/';
 
 import GlobalStyle from './styles/global';
 
@@ -10,7 +9,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Projects />
+        <Contact />
         <GlobalStyle />
       </Router>
     </>
