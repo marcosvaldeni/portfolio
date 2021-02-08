@@ -32,21 +32,47 @@ export const Background = styled.section`
 `;
 
 export const Footer = styled.footer`
-  margin-top: 60px;
   background: #333;
 
-  div {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 50px;
+    color: #5F5F5F;
+  }
+
+  h3 {
+    margin: 40px 0;
+    color: #fff;
   }
 `;
 
-export const Icon = styled.div`
-  height: 50px;
-  width: 50px;
-  background: #a8a8a8;
-  border-radius: 50px;
+export const Icons = styled.ul`
+  max-width: 600px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    background: #5F5F5F;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 576px) {
+    width: 70%;
+    max-width: 600px;
+  }
+  @media (min-width: 768px) {
+    width: 50%;
+    max-width: 600px;
+  }
 `;
