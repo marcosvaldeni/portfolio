@@ -2,7 +2,11 @@ import React from 'react';
 
 import { Background, Content, Card, Button } from './styles';
 
-const project = () => {
+const project = ({ showModal, setShowModal }) => {
+
+  const openModal = () => {
+    setShowModal(prev => !prev)
+  }
 
   return (
     <>
@@ -11,7 +15,7 @@ const project = () => {
         <Content>
           <Card>
             <div>
-              <button>More Information</button>
+              <button onClick={openModal}>More Information</button>
             </div>
           </Card>
           <Card>

@@ -2,28 +2,24 @@ import styled from 'styled-components';
 
 import bg from '../../img/bg-01.jpg';
 
-export const Temp = styled.div`
-  width: 100%;
-  min-height: 1000px;
-  background: url(${bg}) no-repeat center center / cover;
-`;
 
 export const Background = styled.section`
   width: 100%;
-  min-height: 100vh;
   padding: 30px 0;
-  background: rgba(0, 0, 0, 0.5);
+  position: relative;
 
   z-index: 5;
 `;
 
 export const Project = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 920px;
   margin: 0 auto;
   border-radius: 30px;
   background: #fff;
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
 
   display: flex;
   flex-direction: column;
@@ -32,7 +28,7 @@ export const Project = styled.div`
   h2 {
     margin-top: 40px;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 700;
   }
 
@@ -47,6 +43,26 @@ export const Project = styled.div`
     width: 90%;
     max-width: 660px;
     margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  @media (min-width: 576px) {
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
 `;
 
@@ -74,12 +90,23 @@ export const Container = styled.aside`
 
   span {
     margin: 0 3px 3px 3px;
-    padding: 5px 10px;
+    padding: 0 6px;
+
     background: #2B7489;
     color: #fff;
     border-radius: 5px;
+    font-size: 12px;
     font-weight: 700;
     display: inline-block;
+  }
+
+  @media (min-width: 576px) {
+
+    span {
+      padding: 5px 10px;
+      margin: 0 3px 3px 3px;
+      font-size: 16px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -102,7 +129,7 @@ export const Button = styled.button`
   background: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
 
   display: flex;
@@ -119,6 +146,10 @@ export const Button = styled.button`
 
   & + button {
     margin-top: 20px;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 18px;
   }
 
   @media (min-width: 768px) {
@@ -139,7 +170,7 @@ export const Close = styled.div`
   justify-content: center;
 
   position: absolute;
-  right: 30px;
+  right: 5%;
   top: 30px;
 
   svg {
