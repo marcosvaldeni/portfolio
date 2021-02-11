@@ -9,6 +9,9 @@ export default createGlobalStyle`
   }
 
   body {
+    /* width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden; */
     font: 16px Roboto, sans-serif;
     line-height: 26px;
     -webkit-font-smoothing: antialiased;

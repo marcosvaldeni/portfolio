@@ -4,7 +4,7 @@ export const Container = styled.div`
   min-height: 100vh;
   width: 100%;
   padding: 40px 20px 0 20px;
-  background: #F2F2F2;
+  background: #F0F0F5;
   text-align: center;
 
   display: flex;
@@ -12,7 +12,7 @@ export const Container = styled.div`
   align-items: center;
 
   > img {
-    height: 80px;
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 30px;
   }

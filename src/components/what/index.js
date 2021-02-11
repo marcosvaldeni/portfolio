@@ -48,10 +48,12 @@ const what = () => {
         </Container>
       </Main>
     </Background>
-      
+    
       <Resume>
-        <h2>CHECK MY RESUME</h2>
-        <button>Donwload My CV</button>
+        <div>
+          <h2>CHECK MY RESUME</h2>
+          <button>DOWNLOAD</button>
+        </div>
       </Resume>
       </>
   );

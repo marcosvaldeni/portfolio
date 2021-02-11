@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import code from '../../assets/code.jpg';
+
 export const Background = styled.div`
   padding-top: 40px;
   padding-bottom: 30px;
@@ -75,25 +77,35 @@ export const Container = styled.div`
 `;
 
 export const Resume = styled.section`
-  background: #fff;
+  background-color: #fff;
+  background: url(${code}) no-repeat center center / cover;
+
+  color: #fff;
   text-align: center;
-  margin: 50px 0;
 
-  h2 {
-    margin-bottom: 30px;
+  & > div {
+    padding: 70px 0;
+    background: rgba(0,0,0,0.6);
 
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    button {
+      height: 76px;
+      width: 250px;
+      margin-bottom: 10px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      border: none;
+      border-radius: 50px;
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+    }
   }
 
-  button {
-    height: 50px;
-    width: 280px;
-    margin-bottom: 10px;
-    background: #F0F0F5;
-    border: 2px solid #333;
-    border-radius: 20px;
-
-    font-weight: 700;
-    color: #333;
-    cursor: pointer;
-  }
 `;
