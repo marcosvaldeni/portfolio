@@ -5,9 +5,14 @@ import bg from '../../img/bg-01.jpg';
 
 export const Background = styled.section`
   width: 100%;
+  max-height: 100%;
   padding: 30px 0;
-  position: relative;
+  background: rgba(0, 0, 0, 0.8);
 
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 5;
 `;
 
@@ -17,9 +22,7 @@ export const Project = styled.div`
   margin: 0 auto;
   border-radius: 30px;
   background: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: relative;
 
   display: flex;
   flex-direction: column;

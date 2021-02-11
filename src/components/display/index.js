@@ -1,17 +1,33 @@
-import React from 'react';
+import React, { useRef, useEffect, useCallback } from 'react';
 
 import { FaTimes, FaGithub, FaGlobe } from "react-icons/fa";
 
 import bg from '../../img/bg-01.jpg';
 
-import { Temp, Background, Project, Container, Button, Close } from './styles';
+import { Background, Project, Container, Button, Close } from './styles';
 
-const display = () => {
+const Display = ({ showModal, setShowModal }) => {
+  const modalRef = useRef();
+
+  const openCloseModal = () => {
+    setShowModal(prev => !prev);
+  }
+
+  const keyPress = useCallback(e => {
+    if (e.key === 'Escape' && showModal) {
+      setShowModal(false);
+    }
+  }, [setShowModal, showModal]);
+
+  useEffect(() => {
+    document.addEventListener('keydown', keyPress);
+    return () => document.removeEventListener('keydown', keyPress);
+  }, [keyPress]);
 
   return (
-    <Background>
+    <Background ref={modalRef} onClick={openCloseModal}>
       <Project>
-        <Close>
+        <Close onClick={openCloseModal}>
           <FaTimes size={20} />
         </Close>
         <h2>AVOCADO</h2>
@@ -60,4 +76,4 @@ const display = () => {
   );
 }
 
-export default display;
+export default Display;

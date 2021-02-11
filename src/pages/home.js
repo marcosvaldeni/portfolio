@@ -16,8 +16,11 @@ const Home = () => {
       <Landing />
       <About />
       <What />
-      <Display showModal={showModal} setShowModal={setShowModal} />
-      <Project showModel={showModal} setShowModel={setShowModal} />
+      {showModal ? (
+        <Display showModal={showModal} setShowModal={setShowModal} />
+      ) : null}
+
+      <Project showModal={showModal} setShowModal={setShowModal} />
       <Experience />
       <Contact />
     </>

@@ -5,7 +5,7 @@ import { Background, Content, Card, Button } from './styles';
 const project = ({ showModal, setShowModal }) => {
 
   const openModal = () => {
-    setShowModal(prev => !prev)
+    setShowModal(prev => !prev);
   }
 
   return (
