@@ -7,12 +7,14 @@ import Experience from '../components/experience';
 import Project from '../components/project';
 import Contact from '../components/contact';
 import Display from '../components/display';
+import Navbar from '../components/navbar';
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
+      <Navbar />
       <Landing />
       <About />
       <What />
