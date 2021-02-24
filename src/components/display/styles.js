@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-import bg from '../../img/bg-01.jpg';
-
-
 export const Background = styled.section`
   width: 100%;
   max-height: 100%;

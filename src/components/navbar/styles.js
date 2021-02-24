@@ -65,7 +65,7 @@ export const Navbar = styled.nav`
 
   position: absolute;
   top: 50px;
-  right: ${({click}) => (click ? 0 : '-100%')};
+  right: ${({click}) => (click ? 0 : '-110%')};
 
   transition: all 1s;
 

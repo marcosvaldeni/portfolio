@@ -1,5 +1,6 @@
 import React from 'react';
 
+import marcos from '../../assets/img/marcos.jpg';
 import svgCode from '../../img/code.svg';
 import svgDesktop from '../../img/desktop.svg';
 import svgYoutube from '../../img/youtube.svg';
@@ -12,10 +13,7 @@ const About = () => {
     <>
       <Container>
         <h2>ABOUT ME</h2>
-        <img 
-          src="https://avatars.githubusercontent.com/u/15179803?s=460&u=6c2d2619c59abf5748c38642ab637cc33a36fcb8&v=4" 
-          alt="Profile Photo"
-        />
+        <img src={marcos} alt="Profile"/>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga 
           sapiente ipsum vitae nulla aut inventore repellendus qui. Porro.

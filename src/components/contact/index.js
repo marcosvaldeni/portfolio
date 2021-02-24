@@ -1,6 +1,5 @@
 import React from 'react';
 import { 
-  FaRegComments, 
   FaLinkedin, 
   FaEnvelope, 
   FaGithub,
