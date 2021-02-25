@@ -12,31 +12,39 @@ const contact = () => {
 
   return (
     <>
-      <Background>
+      <Background id="contact">
         <h2>GET IN TOUCH!</h2>
 
         <p>
-          Phasellus ut dui eu erat suscipit sollicitudin. Suspendisse sed ipsum 
-          sem. Nunc in imperdiet lorem. Nunc dolor lectus, luctus eget nibh in, 
-          accumsan dignissim dolor.
+          I am always open to hear about new ideas for projects. So, if you 
+          have an idea or come across a project that you want to develop feel 
+          free to reach me out!
         </p>
 
       </Background>
       <Footer>
 
         <Icons>
-          <li>
-            <FaEnvelope size={30} color={'#cacaca'} />
-          </li>
-          <li>
-            <FaGithub size={30} color={'#cacaca'} />
-          </li>
-          <li>
-            <FaLinkedin size={30} color={'#cacaca'} />
-          </li>
-          <li>
-            <FaYoutube size={30} color={'#cacaca'} />
-          </li>
+          <a href="https://github.com/marcosvaldeni" target="_blank" rel="noreferrer" >
+            <li>
+              <FaEnvelope size={30} color={'#cacaca'} />
+            </li>
+          </a>
+          <a href="https://github.com/marcosvaldeni" target="_blank" rel="noreferrer" >
+            <li>
+              <FaGithub size={30} color={'#cacaca'} />
+            </li>
+          </a>
+          <a href="https://www.linkedin.com/in/marcos-v-lucas/" target="_blank" rel="noreferrer" >
+            <li>
+              <FaLinkedin size={30} color={'#cacaca'} />
+            </li>
+          </a>
+          <a href="https://www.youtube.com/channel/UCAyZqmYI8vuJ9Tr2h7w7gug" target="_blank" rel="noreferrer" >
+            <li>
+              <FaYoutube size={30} color={'#cacaca'} />
+            </li>
+          </a>
         </Icons>
 
         
@@ -44,7 +52,7 @@ const contact = () => {
           Live long and prosper 🖖
         </p>
         
-        <h3>Marcos Vadelni Lucas © 2021</h3>
+        <h3><strog>Marcos Vadelni Lucas</strog> © 2021</h3>
       </Footer>
     </>
   );

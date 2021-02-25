@@ -27,7 +27,7 @@ const experience = () => {
 
   return (
     <>
-      <Container>
+      <Container id="experience">
         <div>
           <h2>EXPERIENCE</h2>
 
@@ -49,7 +49,7 @@ const experience = () => {
               </li>
               <li>
                 <img src={pngDerhous} alt="Derhous Training"/>
-                <span>Derhous Training</span>
+                <span>Derhaus Training</span>
               </li>
             </ul>
           </Aside>

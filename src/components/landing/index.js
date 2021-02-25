@@ -6,7 +6,7 @@ const Landing = () => {
 
   return (
     <>
-      <Backgrond>
+      <Backgrond id="home">
         <Container>
           <h1>HELLO, I AM MARCOS</h1>
           <p>Frontend Developer & UX Enthusiast</p>

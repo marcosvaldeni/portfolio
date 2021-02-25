@@ -10,40 +10,45 @@ const what = () => {
 
   return (
     <>
-    <Background>
+    <Background id="whatido">
       <h2>WHAT I DO</h2>
       <Main>
         <Container>
           <img src={svgDesktop} alt="Icon"/>
           <h4>UX Design</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, dicta 
-            dolorem. Nemo. Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Corporis tempore ad molestiae cumque fuga, optio quam odit 
-            dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ea et corrupti harum ipsam cumque cupiditate!
+            ‘User experience refers to the singular and accumulated experiences 
+            that occur for users as a consequence of them interacting with an 
+            object in a given context’.
           </p>
         </Container>
         <Container>
           <img src={svgCode} alt="Icon"/>
           <h4>FontEnd Developer</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, dicta 
-            dolorem. Nemo. Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Corporis tempore ad molestiae cumque fuga, optio quam odit 
-            dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ea et corrupti harum ipsam cumque cupiditate!
+            I have a strong foundation in Computer Science, with some 
+            experience in Web development using JavaScript, CSS, and HTML. 
+            Proactively design, develop and code websites according with 
+            development best practices and system documentation. I am 
+            constantly study and improving my skills to be able to grow as a 
+            developer.
           </p>
         </Container>
         <Container>
           <img src={svgYoutube} alt="Icon"/>
           <h4>YouTuber</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, dicta 
-            dolorem. Nemo. Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Corporis tempore ad molestiae cumque fuga, optio quam odit 
-            dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ea et corrupti harum ipsam cumque cupiditate!
+            This channel was created based in a theory that by teaching what I 
+            have learned I can fix the content and internalize it better, and in 
+            complement contribute to the community.
+          </p>
+          <p>
+            The videos are recorded in Portuguese as is my mother language, 
+            but the mean reason to take this approach is considering that the 
+            majority of the videos available in the platform related to 
+            programming are in English, however the Brazilian audience has a 
+            demand for more content in their native language because of 
+            limitation.
           </p>
         </Container>
       </Main>

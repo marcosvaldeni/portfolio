@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkScroll } from 'react-scroll';
 
 export const Header = styled.header`
   width: 100%;
@@ -107,4 +108,13 @@ export const Menu = styled.ul`
       }
     }
   }
+`;
+
+export const NavLinks = styled(LinkScroll)`
+    cursor: pointer;
+
+  /* &.active {
+    background: #fff; 
+    color: #333;
+  } */
 `;

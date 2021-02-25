@@ -10,7 +10,7 @@ const project = ({ showModal, setShowModal }) => {
 
   return (
     <>
-      <Background>
+      <Background id="project">
         <h2>PROJECTS THAT I HAVE DONE:</h2>
         <Content>
           <Card>

@@ -11,20 +11,19 @@ const About = () => {
 
   return (
     <>
-      <Container>
+      <Container id="about">
         <h2>ABOUT ME</h2>
         <img src={marcos} alt="Profile"/>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga 
-          sapiente ipsum vitae nulla aut inventore repellendus qui. Porro.
-          Fuga sapiente ipsum vitae nulla aut inventore repellendus qui. Porro.
+          Hi! My name is Marcos and I am a Junior Frontend Developer with a 
+          passion for user experience. I graduated in Science in Information 
+          Technology at CCT College Dublin. I am passionate for programming, 
+          especially when involves using technology to facilitate the end user 
+          life.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur 
-          id architecto aperiam modi, quo iure repudiandae in rerum, ea 
-          consequatur magnam facere pariatur!Lorem ipsum dolor sit amet, 
-          consectetur adipisicing elit. Fuga sapiente ipsum vitae nulla aut 
-          inventore repellendus qui. Porro.
+        When I am not working or study, I enjoy mess around with video edition, 
+        play games and listen podcasts.
         </p>
 
         <Section>
@@ -40,7 +39,7 @@ const About = () => {
             </li>
             <li>
               <img src={svgYoutube} alt="icon"/>
-              <span>Youtuber Apprentice</span>
+              <span>YouTuber</span>
             </li>
           </ul>
         </Section>

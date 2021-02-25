@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import logoImg from '../../img/logo.svg';
 
-import { Header, Menu, Navbar } from './styles';
+import { Header, Menu, Navbar, NavLinks } from './styles';
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -23,19 +23,59 @@ const Nav = () => {
         <Navbar onClick={handleClick} click={click}>
           <Menu>
             <li>
-              ABOUT
+              <NavLinks to="about"
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-50}
+              >
+                ABOUT
+              </NavLinks>
             </li>
             <li>
-              PASSION
+              <NavLinks to="whatido"
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-50}
+              >
+                PASSION
+              </NavLinks>
             </li>
             <li>
-              EXPERIENCE
+              <NavLinks to="project"
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-50}
+              >
+                WORK
+              </NavLinks>
             </li>
             <li>
-              WORK
+              <NavLinks to="experience"
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-50}
+              >
+                EXPERIENCE
+              </NavLinks>
             </li>
             <li>
-              CONTACT
+              <NavLinks to="contact"
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-50}
+              >
+                CONTACT
+              </NavLinks>
             </li>
           </Menu>
         </Navbar>
