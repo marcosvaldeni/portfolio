@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { projects } from '../../services/db.json'
-import { Background, Content, Card, Button } from './styles';
+import { Background, Content, Card } from './styles';
 
 const Project = ({ showModal, setShowModal, setProjectModal }) => {
   const bg = [];
