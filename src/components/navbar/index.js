@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 
 import { FaBars, FaTimes } from "react-icons/fa";
-
 import logoImg from '../../img/logo.svg';
-
 import { Header, Menu, Navbar, NavLinks } from './styles';
+import { Link as LinkScroll } from 'react-scroll';
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -16,9 +15,17 @@ const Nav = () => {
       <Header>
         <div>
           <img src={logoImg} alt="Logo" />
-          <h1>
-            MARCOS VALDENI LUCAS
-          </h1>
+          <LinkScroll to="home"
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offset={0}
+          >
+            <h1>
+              MARCOS VALDENI LUCAS
+            </h1>
+          </LinkScroll>
         </div>
         <Navbar onClick={handleClick} click={click}>
           <Menu>

@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import bg from '../../assets/temp/01.jpg';
-
 export const Background = styled.section`
   min-height: 100vh;
   width: 100%;
@@ -9,11 +7,13 @@ export const Background = styled.section`
   padding-top: 50px;
   text-align: center;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
   h2 {
     padding-bottom: 30px;
   }
-
-
 
   @media (min-width: 1200px) {
     min-height: 100vh;
@@ -38,7 +38,6 @@ export const Card = styled.div`
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  background: url(${bg}) no-repeat center center / cover;
   margin-bottom: 30px;
 
   display: flex;
@@ -77,7 +76,6 @@ export const Card = styled.div`
     width: 30%;
     height: 300px;
     border-radius: 10px;
-    background: url(${bg}) no-repeat center center / cover;
 
     div {
       visibility: hidden;
@@ -112,4 +110,3 @@ export const Button = styled.button`
   box-shadow: 0px 10px 20px 3px rgba(104, 171, 247, 0.32);
   cursor: pointer;
 `;
-

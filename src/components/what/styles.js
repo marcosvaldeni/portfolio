@@ -2,11 +2,22 @@ import styled from 'styled-components';
 
 import code from '../../assets/code.jpg';
 
+export const Div = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
 export const Background = styled.div`
   padding-top: 40px;
   padding-bottom: 30px;
   background: #F0F0F5;
   text-align: center;
+
+  @media (min-width: 992px) {
+    min-height: 70vh;
+  }
 `;
 
 export const Main = styled.section`
@@ -29,6 +40,7 @@ export const Container = styled.div`
   padding: 20px 30px;
   background: #fff;
   border-radius:30px;
+  flex: 1;
 
   img {
     height: 35px;
@@ -47,6 +59,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 992px) {
+    min-height: 400px;
     margin: 30px 0;
     max-width: 400px;
     text-align: center;
@@ -108,4 +121,7 @@ export const Resume = styled.section`
     }
   }
 
+  @media (min-width: 992px) {
+    min-height: 30vh;
+  }
 `;

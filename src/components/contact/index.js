@@ -25,7 +25,7 @@ const contact = () => {
       <Footer>
 
         <Icons>
-          <a href="https://github.com/marcosvaldeni" target="_blank" rel="noreferrer" >
+          <a href="mailto:marcosvaldeni@gmail.com">
             <li>
               <FaEnvelope size={30} color={'#cacaca'} />
             </li>
@@ -47,12 +47,11 @@ const contact = () => {
           </a>
         </Icons>
 
-        
         <p>
           Live long and prosper 🖖
         </p>
         
-        <h3><strog>Marcos Vadelni Lucas</strog> © 2021</h3>
+        <h3><strong>Marcos Vadelni Lucas</strong> © 2021</h3>
       </Footer>
     </>
   );

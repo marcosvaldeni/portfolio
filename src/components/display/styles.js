@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Background = styled.section`
   width: 100%;
-  max-height: 100%;
-  padding: 30px 0;
+  min-height: 100vh;
+  padding: 60px 0;
   background: rgba(0, 0, 0, 0.8);
 
   overflow-y: auto;
@@ -121,14 +121,14 @@ export const Container = styled.aside`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 100%;
   padding: 15px;
   border: none;
   border-radius: 30px;
   background: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  color: #333;
   font-size: 12px;
   font-weight: 700;
 
@@ -144,7 +144,7 @@ export const Button = styled.button`
     margin-top: 40px;
   }
 
-  & + button {
+  & + a {
     margin-top: 20px;
   }
 

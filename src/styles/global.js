@@ -30,4 +30,9 @@ export default createGlobalStyle`
     letter-spacing: 4px;
     margin-bottom: 40px;
   }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 `;

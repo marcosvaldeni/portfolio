@@ -28,6 +28,7 @@ const experience = () => {
   return (
     <>
       <Container id="experience">
+        
         <div>
           <h2>EXPERIENCE</h2>
 
@@ -110,6 +111,7 @@ const experience = () => {
             </Icons>
           </Main>
         </Content>
+      
       </Container> 
     </>
   )

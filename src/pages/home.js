@@ -10,6 +10,7 @@ import Display from '../components/display';
 import Navbar from '../components/navbar';
 
 const Home = () => {
+  const [projectModal, setProjectModal] = useState(0);
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -19,10 +20,10 @@ const Home = () => {
       <About />
       <What />
       {showModal ? (
-        <Display showModal={showModal} setShowModal={setShowModal} />
+        <Display showModal={showModal} setShowModal={setShowModal} projectModal={projectModal} />
       ) : null}
 
-      <Project showModal={showModal} setShowModal={setShowModal} />
+      <Project showModal={showModal} setShowModal={setShowModal} setProjectModal={setProjectModal} />
       <Experience />
       <Contact />
     </>

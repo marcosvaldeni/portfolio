@@ -4,12 +4,12 @@ import svgCode from '../../img/code.svg';
 import svgDesktop from '../../img/desktop.svg';
 import svgYoutube from '../../img/youtube.svg';
 
-import { Main, Container, Background, Resume } from './styles';
+import { Main, Container, Background, Resume, Div } from './styles';
 
 const what = () => {
 
   return (
-    <>
+    <Div>
     <Background id="whatido">
       <h2>WHAT I DO</h2>
       <Main>
@@ -26,41 +26,31 @@ const what = () => {
           <img src={svgCode} alt="Icon"/>
           <h4>FontEnd Developer</h4>
           <p>
-            I have a strong foundation in Computer Science, with some 
-            experience in Web development using JavaScript, CSS, and HTML. 
-            Proactively design, develop and code websites according with 
-            development best practices and system documentation. I am 
-            constantly study and improving my skills to be able to grow as a 
-            developer.
+            I have a strong foundation in Computer Science and some experience 
+            with Web development. Focus on developing and code websites in line 
+            with best practices and system documentation. I am constantly 
+            studying to improve my skills and grow as a developer.
           </p>
         </Container>
         <Container>
           <img src={svgYoutube} alt="Icon"/>
           <h4>YouTuber</h4>
+          <em>"Learning by teaching" </em>
           <p>
-            This channel was created based in a theory that by teaching what I 
-            have learned I can fix the content and internalize it better, and in 
-            complement contribute to the community.
-          </p>
-          <p>
-            The videos are recorded in Portuguese as is my mother language, 
-            but the mean reason to take this approach is considering that the 
-            majority of the videos available in the platform related to 
-            programming are in English, however the Brazilian audience has a 
-            demand for more content in their native language because of 
-            limitation.
+            A channel to help the community with web development content, it was 
+            designed to reach the Portuguese speaker's audience, considering the 
+            majority of online content available is always in English.
           </p>
         </Container>
       </Main>
     </Background>
-    
       <Resume>
         <div>
           <h2>CHECK MY RESUME</h2>
           <button>DOWNLOAD</button>
         </div>
       </Resume>
-      </>
+      </Div>
   );
 }
 

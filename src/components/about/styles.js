@@ -10,14 +10,16 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 
   > img {
-    height: 120px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 30px;
   }
 
-  p {
+  > p {
+    margin-bottom: 18px;
     max-width: 760px;
     font-size: 16px;
     line-height: 26px;

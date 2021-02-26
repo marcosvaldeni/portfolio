@@ -27,6 +27,7 @@ export const Header = styled.header`
       font-size: 16px;
       font-weight: 900;
       margin-left: 10px;
+      cursor: pointer;
     }
   }
 

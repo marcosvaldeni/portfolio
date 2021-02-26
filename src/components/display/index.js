@@ -1,13 +1,13 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 
+import { projects } from '../../services/db.json';
 import { FaTimes, FaGithub, FaGlobe } from "react-icons/fa";
-
-import bg from '../../img/bg-01.jpg';
-
 import { Background, Project, Container, Button, Close } from './styles';
 
-const Display = ({ showModal, setShowModal }) => {
+const Display = ({ showModal, setShowModal, projectModal }) => {
+  const bg = require(`../../assets/projects/${projects[projectModal].img}`).default;
   const modalRef = useRef();
+  const technologies = projects[projectModal].technologies.split(',');
 
   const openCloseModal = () => {
     setShowModal(prev => !prev);
@@ -25,34 +25,27 @@ const Display = ({ showModal, setShowModal }) => {
   }, [keyPress]);
 
   return (
-    <Background ref={modalRef} onClick={openCloseModal}>
+    <Background ref={modalRef}>
       <Project>
         <Close onClick={openCloseModal}>
           <FaTimes size={20} />
         </Close>
-        <h2>AVOCADO</h2>
+        <h2>{projects[projectModal].name}</h2>
         <img src={bg} alt="Avocado"/>
 
         <Container>
           <div>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>PHP</span>
-            <span>TypeScript</span>
-            <span>JavaScript</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>PHP</span>
-            <span>TypeScript</span>
-            <span>JavaScript</span>
+            {technologies.map(tech => (
+              <span key={tech}>{tech}</span>
+            ))}
           </div>
 
           <div>
-            <Button>
-              <FaGithub size={30}/>
-              Project Source Code
-            </Button>
-            <Button>
+              <Button href={projects[projectModal].source} target="_blank" rel="noreferrer">
+                <FaGithub size={30}/>
+                Project Source Code
+              </Button>
+            <Button href={projects[projectModal].online} target="_blank" rel="noreferrer">
               <FaGlobe size={30}/>
               Check Project Online
             </Button>
@@ -60,16 +53,7 @@ const Display = ({ showModal, setShowModal }) => {
         </Container>
 
         <p>
-          Sed interdum lectus a arcu semper, eget posuere arcu vehicula. 
-          Maecenas at accumsan urna. Proin aliquam egestas lobortis. Duis 
-          varius porttitor mauris, sed blandit felis euismod fermentum. Ut 
-          consectetur, lacus sit amet dapibus auctor, lorem sapien auctor 
-          elit, a scelerisque ex ipsum non eros. Nullam aliquet finibus 
-          lacus cursus interdum. Ut porta odio sed felis sodales dictum. 
-          Duis sagittis nulla at justo placerat, sit amet dignissim tortor 
-          maximus. Praesent quis viverra tortor, vel sagittis ipsum. Praesent 
-          tempor facilisis nibh, at congue libero venenatis ac. Proin 
-          tristique dui nunc, quis iaculis quam elementum ac.
+          {projects[projectModal].description}
         </p>
       </Project>
     </Background>

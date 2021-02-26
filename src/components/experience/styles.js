@@ -7,9 +7,12 @@ export const Container = styled.section`
   padding: 50px 15px;
   text-align: center;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
   div {
     p {
-      font-weight: 300;
       margin-bottom: 50px;
     }
   }
@@ -27,6 +30,7 @@ export const Content = styled.div`
   flex-direction: column;
 
   @media (min-width: 992px) {
+    min-height: 400px;
     flex-direction: row;
   }
 `;
@@ -35,11 +39,13 @@ export const Main = styled.div`
   width: 100%;
 
   @media (min-width: 992px) {
+    min-height: 400px;
     width: 70%;
   }
 `;
 
 export const Icons = styled.div`
+    min-height: 300px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: repeat(auto-fit, 100px);
