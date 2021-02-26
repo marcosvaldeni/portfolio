@@ -8,7 +8,7 @@ import {
 
 import { Background, Footer, Icons } from './styles';
 
-const contact = () => {
+const Contact = () => {
 
   return (
     <>
@@ -57,4 +57,4 @@ const contact = () => {
   );
 }
 
-export default contact;
+export default Contact;

@@ -6,7 +6,7 @@ import svgYoutube from '../../img/youtube.svg';
 
 import { Main, Container, Background, Resume, Div } from './styles';
 
-const what = () => {
+const What = () => {
 
   return (
     <Div>
@@ -54,4 +54,4 @@ const what = () => {
   );
 }
 
-export default what;
+export default What;

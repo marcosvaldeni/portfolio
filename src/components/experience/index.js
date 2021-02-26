@@ -23,7 +23,7 @@ import svgFigma from '../../assets/figma.svg';
 
 import { Container, Content, Aside, Main, Icons } from './styles';
 
-const experience = () => {
+const Experience = () => {
 
   return (
     <>
@@ -117,4 +117,4 @@ const experience = () => {
   )
 }
 
-export default experience;
+export default Experience;

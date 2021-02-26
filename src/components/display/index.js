@@ -31,7 +31,7 @@ const Display = ({ showModal, setShowModal, projectModal }) => {
           <FaTimes size={20} />
         </Close>
         <h2>{projects[projectModal].name}</h2>
-        <img src={bg} alt="Avocado"/>
+        <img src={bg} alt={projects[projectModal].name}/>
 
         <Container>
           <div>
