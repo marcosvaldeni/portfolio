@@ -5,7 +5,6 @@ import { FaTimes, FaGithub, FaGlobe } from "react-icons/fa";
 import { Background, Project, Container, Button, Close } from './styles';
 
 const Display = ({ showModal, setShowModal, projectModal }) => {
-  const bg = require(`../../assets/projects/${projects[projectModal].img}`).default;
   const modalRef = useRef();
   const technologies = projects[projectModal].technologies.split(',');
 
@@ -31,7 +30,7 @@ const Display = ({ showModal, setShowModal, projectModal }) => {
           <FaTimes size={20} />
         </Close>
         <h2>{projects[projectModal].name}</h2>
-        <img src={bg} alt={projects[projectModal].name}/>
+        <img src={"https://raw.githubusercontent.com/marcosvaldeni/portfolio/master/src/assets/projects/" + projects[projectModal].img} alt={projects[projectModal].name}/>
 
         <Container>
           <div>
