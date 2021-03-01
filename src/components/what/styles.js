@@ -104,20 +104,19 @@ export const Resume = styled.section`
       margin-bottom: 30px;
     }
 
-    button {
+    a {
       height: 76px;
       width: 250px;
+      padding: 20px 50px;
       margin-bottom: 10px;
       background: rgba(255, 255, 255, 0.12);
       backdrop-filter: blur(10px);
-      border: none;
       border-radius: 50px;
 
       font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-weight: 700;
       color: #fff;
-      cursor: pointer;
     }
   }
 

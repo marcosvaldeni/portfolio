@@ -3,6 +3,7 @@ import React from 'react';
 import svgCode from '../../img/code.svg';
 import svgDesktop from '../../img/desktop.svg';
 import svgYoutube from '../../img/youtube.svg';
+import cv from '../../assets/MarcosValdeniLucas.pdf';
 
 import { Main, Container, Background, Resume, Div } from './styles';
 
@@ -47,7 +48,7 @@ const What = () => {
       <Resume>
         <div>
           <h2>CHECK MY RESUME</h2>
-          <button>DOWNLOAD</button>
+          <a href={cv} target="_blank" rel="noreferrer">DOWNLOAD</a>
         </div>
       </Resume>
       </Div>

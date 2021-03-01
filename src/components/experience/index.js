@@ -33,10 +33,10 @@ const Experience = () => {
           <h2>EXPERIENCE</h2>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem 
-            iusto laborum qui ratione rerum officia distinctio deleniti ab. Totam 
-            maiores suscipit deleniti soluta sed aspernatur ipsa odio optio minus 
-            iste?
+            I am a graduated in Information Technology with 2 years’ experience 
+            in Web development using HTML, CSS, and JavaScript.  I'm always 
+            eager to learn more in this fast-paced industry. Currently looking 
+            for a Junior Frontend position.
           </p>
         </div>
 
