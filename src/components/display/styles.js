@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Background = styled.section`
   width: 100%;
-  min-height: 100vh;
-  padding: 60px 0;
+  max-height: 100%;
+  padding: 50px 0;
   background: rgba(0, 0, 0, 0.8);
 
   overflow-y: auto;
