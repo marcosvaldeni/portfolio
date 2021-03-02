@@ -5,7 +5,7 @@
         "name": "Kattattal",
         "description": "",
         "img": "kattattal.png",
-        "technologies": "JavaScript,HTML,CSS,React",
+        "technologies": "React,JavaScript,HTML,CSS",
         "source": "https://github.com/marcosvaldeni/kattattal-site",
         "online": "https://kattattal-site.vercel.app"
       },
@@ -14,7 +14,7 @@
         "name": "Portfolio",
         "description": "",
         "img": "portfolio.png",
-        "technologies": "JavaScript,HTML,CSS",
+        "technologies": "Javascript,HTML,CSS,React",
         "source": "https://github.com/marcosvaldeni/portfolio",
         "online": "https://portfolio-marcosvaldeni.vercel.app"
       },
@@ -23,7 +23,7 @@
         "name": "Flex.Crowd",
         "description": "",
         "img": "flexcrowd.png",
-        "technologies": "Javascript,HTML,CSS,React",
+        "technologies": "JavaScript,HTML,CSS",
         "source": "https://github.com/marcosvaldeni/30-days-challenger",
         "online": "https://marcosvaldeni.github.io/day01/"
       },
