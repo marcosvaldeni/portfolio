@@ -1,6 +1,7 @@
 import React from 'react';
 
 import pngDerhous from '../../assets/derhous.png';
+import accenture from '../../assets/accenture.png';
 import pngCCT from '../../assets/cct.png';
 import svgJs from '../../assets/javascript.svg';
 import svgHhml from '../../assets/html.png';
@@ -44,6 +45,10 @@ const Experience = () => {
           <Aside>
             <h3>WHERE I HAVE WORKED:</h3>
             <ul>
+              <li>
+                <img src={accenture} alt="Accenture"/>
+                <span>Accenture</span>
+              </li>
               <li>
                 <img src={pngCCT} alt="CCT College Dublin"/>
                 <span>CCT College Dublin</span>

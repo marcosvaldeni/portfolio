@@ -97,6 +97,7 @@ export const Resume = styled.section`
   text-align: center;
 
   & > div {
+    height: 30vh;
     padding: 70px 0;
     background: rgba(0,0,0,0.6);
 

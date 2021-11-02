@@ -7,16 +7,18 @@
         "img": "kattattal.png",
         "technologies": "React,JavaScript,HTML,CSS",
         "source": "https://github.com/marcosvaldeni/kattattal-site",
-        "online": "https://kattattal-site.vercel.app"
+        "online": "https://kattattal-site.vercel.app",
+        "figma": ""
       },
       {
         "id": 2,
-        "name": "Portfolio",
+        "name": "Portfolios",
         "description": "",
         "img": "portfolio.png",
         "technologies": "Javascript,HTML,CSS,React",
         "source": "https://github.com/marcosvaldeni/portfolio",
-        "online": "https://portfolio-marcosvaldeni.vercel.app"
+        "online": "https://portfolio-marcosvaldeni.vercel.app",
+        "figma": ""
       },
       {
         "id": 3,
@@ -25,17 +27,60 @@
         "img": "flexcrowd.png",
         "technologies": "JavaScript,HTML,CSS",
         "source": "https://github.com/marcosvaldeni/30-days-challenger",
-        "online": "https://marcosvaldeni.github.io/day01/"
+        "online": "https://marcosvaldeni.github.io/day01/",
+        "figma": ""
       },
       {
         "id": 4,
         "name": "Move Yourself",
-        "description": "",
+        "description": "The application proposes to provide exercises to the user every 25 minutes. The exercises range from stretching and some eye exercises, ideal for programmers or even people who spend a lot of time in front of the computer.",
         "img": "moveyourself.png",
         "technologies": "TypeScript,HTML,CSS,React,Next",
         "source": "https://github.com/marcosvaldeni/move-yourself",
-        "online": "https://move-yourself.vercel.app"
+        "online": "https://move-yourself.vercel.app",
+        "figma": ""
+      },
+      {
+        "id": 5,
+        "name": "Rancho da Katia Restaurant",
+        "description": "",
+        "img": "rancho.png",
+        "technologies": "TypeScript,HTML,CSS,Styled Components,React,Next",
+        "source": "https://github.com/asteristic/rancho-da-katia/tree/dev",
+        "online": "https://seafood-marcosvaldeni.vercel.app/",
+        "figma": "https://www.figma.com/file/32jzN10dsW6qdxZVB5H8yV/WebPage"
+      },
+      {
+        "id": 6,
+        "name": "PokeRPG",
+        "description": "",
+        "img": "pokerpg.png",
+        "technologies": "TypeScript,HTML,CSS,SCSS,React",
+        "source": "https://github.com/marcosvaldeni/pokeRPG",
+        "online": "https://pokerpg-marcosvaldeni.vercel.app/",
+        "figma": ""
+      },
+      {
+        "id": 7,
+        "name": "LogSierra",
+        "description": "LogSierra is a tracking time where you can log in and activate yourself. This way, the system will point in time where you have started your journey. When you finish, just go on the system and deactivate yourself.",
+        "img": "logsierra.png",
+        "technologies": "TypeScript,HTML,CSS,Styled Components,React",
+        "source": "https://github.com/marcosvaldeni/LogSierra",
+        "online": "",
+        "figma": "https://www.figma.com/file/RjiJK8Qy0ACzMEL8VzrDjA/LogSierra?node-id=0%3A1"
+      },
+      {
+        "id": 8,
+        "name": "LogSierra Backend",
+        "description": "LogSierra is a tracking time where you can log in and activate yourself. This way, the system will point in time where you have started your journey. When you finish, just go on the system and deactivate yourself.",
+        "img": "logsierra_backend.png",
+        "technologies": "TypeScript,NodeJS,ExpressJS,Jest,JWT,TypeORM,PostgreSQL,Docker,Heroku",
+        "source": "https://github.com/marcosvaldeni/log-sierra",
+        "online": "",
+        "figma": "https://www.figma.com/file/RjiJK8Qy0ACzMEL8VzrDjA/LogSierra?node-id=0%3A1"
       }
+
 
   ]
 }

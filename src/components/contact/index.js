@@ -35,7 +35,7 @@ const Contact = () => {
               <FaGithub size={30} color={'#cacaca'} />
             </li>
           </a>
-          <a href="https://www.linkedin.com/in/marcos-v-lucas/" target="_blank" rel="noreferrer" >
+          <a href="https://www.linkedin.com/in/marcosvaldeni/" target="_blank" rel="noreferrer" >
             <li>
               <FaLinkedin size={30} color={'#cacaca'} />
             </li>
