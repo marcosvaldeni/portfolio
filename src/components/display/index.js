@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 
 import { projects } from '../../services/db.json';
-import { FaTimes, FaGithub, FaGlobe } from "react-icons/fa";
+import { FaTimes, FaGithub, FaGlobe, FaFigma } from "react-icons/fa";
 import { Background, Project, Container, Button, Close } from './styles';
 
 const Display = ({ showModal, setShowModal, projectModal }) => {
@@ -44,10 +44,21 @@ const Display = ({ showModal, setShowModal, projectModal }) => {
                 <FaGithub size={30}/>
                 Project Source Code
               </Button>
-            <Button href={projects[projectModal].online} target="_blank" rel="noreferrer">
-              <FaGlobe size={30}/>
-              Check Project Online
-            </Button>
+              {
+                projects[projectModal].online &&
+                <Button href={projects[projectModal].online} target="_blank" rel="noreferrer">
+                  <FaGlobe size={30}/>
+                  Check Project Online
+                </Button>
+
+              }
+              { 
+                projects[projectModal].figma &&
+                <Button href={projects[projectModal].figma} target="_blank" rel="noreferrer">
+                  <FaFigma size={30}/>
+                          Check UI Figma Project
+                </Button>
+              }
           </div>
         </Container>
 

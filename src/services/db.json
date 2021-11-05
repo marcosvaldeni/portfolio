@@ -58,7 +58,7 @@
         "technologies": "TypeScript,HTML,CSS,SCSS,React",
         "source": "https://github.com/marcosvaldeni/pokeRPG",
         "online": "https://pokerpg-marcosvaldeni.vercel.app/",
-        "figma": ""
+        "figma": "https://www.figma.com/file/THxQ2nYeXAgmGEf3rCZVg1/pokeRPG?node-id=0%3A1"
       },
       {
         "id": 7,
@@ -67,7 +67,7 @@
         "img": "logsierra.png",
         "technologies": "TypeScript,HTML,CSS,Styled Components,React",
         "source": "https://github.com/marcosvaldeni/LogSierra",
-        "online": "",
+        "online": "https://log-sierra.vercel.app/",
         "figma": "https://www.figma.com/file/RjiJK8Qy0ACzMEL8VzrDjA/LogSierra?node-id=0%3A1"
       },
       {

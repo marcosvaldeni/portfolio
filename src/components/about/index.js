@@ -18,12 +18,11 @@ const About = () => {
           Hi! My name is Marcos and I am a Junior Frontend Developer with a 
           passion for user experience. I graduated in Science in Information 
           Technology at CCT College Dublin. I am passionate for programming, 
-          especially when involves using technology to facilitate the end user 
-          life.
+          especially when it involves technology to make user's life easier.
         </p>
         <p>
-        When I am not working or study, I enjoy mess around with video edition, 
-        play games and listen podcasts.
+          When I am not working or study, I enjoy mess around with video edition, 
+          play games and listen podcasts.
         </p>
 
         <Section>
