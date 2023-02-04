@@ -51,7 +51,7 @@ const Contact = () => {
           Live long and prosper 🖖
         </p>
         
-        <h3><strong>Marcos Vadelni Lucas</strong> © 2021</h3>
+        <h3><strong>Marcos Valdeni Lucas</strong> © 2021</h3>
       </Footer>
     </>
   );

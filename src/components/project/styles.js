@@ -39,6 +39,7 @@ export const Card = styled.div`
   height: 300px;
   border-radius: 10px;
   margin-bottom: 30px;
+  background: url(/projects/${props => props.img}) no-repeat center center / cover;
 
   display: flex;
   align-items: flex-end;

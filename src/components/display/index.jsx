@@ -30,7 +30,7 @@ const Display = ({ showModal, setShowModal, projectModal }) => {
           <FaTimes size={20} />
         </Close>
         <h2>{projects[projectModal].name}</h2>
-        <img src={"https://raw.githubusercontent.com/marcosvaldeni/portfolio/master/src/assets/projects/" + projects[projectModal].img} alt={projects[projectModal].name}/>
+        <img src={`/projects/${ projects[projectModal].img}`} alt={projects[projectModal].name}/>
 
         <Container>
           <div>
