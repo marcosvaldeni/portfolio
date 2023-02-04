@@ -79,8 +79,26 @@
         "source": "https://github.com/marcosvaldeni/log-sierra",
         "online": "",
         "figma": "https://www.figma.com/file/RjiJK8Qy0ACzMEL8VzrDjA/LogSierra?node-id=0%3A1"
+      },
+      {
+        "id": 9,
+        "name": "P4S Password Generator",
+        "description": "The P4S is a password generator, the layout was based on an exercise proposed by the Frontend Mentor website, all the improvements made to the original layout and the creation of the Figma project were made by Marcos Valdeni Lucas. ",
+        "img": "p4s.png",
+        "technologies": "HTML, CSS, JavaScript",
+        "source": "https://github.com/marcosvaldeni/p4s",
+        "online": "https://marcosvaldeni.github.io/p4s/",
+        "figma": "https://www.figma.com/file/cmESjz6jCIXs7oJRnsFGmq/P4S?node-id=0%3A1&t=q7HUDz0WAELM7JWI-0"
+      },
+      {
+        "id": 10,
+        "name": "Coffee Delivery",
+        "description": "This project was requered by the Ignite Bootcamp program from Rocketseat, it consists of a shopping cart build with React.",
+        "img": "coffee.png",
+        "technologies": "React,TypeScript,Vite,Styled Components,React Hooks,Zod Validations,React Hook Forms",
+        "source": "https://github.com/marcosvaldeni/coffeedelivery",
+        "online": "https://coffeedelivery-plum.vercel.app/",
+        "figma": "https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/duplicate"
       }
-
-
   ]
 }
